@@ -5,10 +5,10 @@
 	(uuid "1fe43109-d280-476a-af2e-10641e44fc32")
 	(paper "A4")
 	(title_block
-		(title "ESP32-Powered BME680 Environmental Sensor IoT Device")
-		(date "2025-11-23")
+		(title "THPDL-2511")
+		(date "2025-12-01")
 		(rev "1.0")
-		(company "https://github.com/sthivaios")
+		(company "Stratos Thivaios (c) 2025 - https://github.com/sthivaios")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"

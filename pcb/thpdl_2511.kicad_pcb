@@ -8,11 +8,10 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "THPDL-2511 V1.0")
-		(date "2025-11-30")
-		(rev "V1.0")
-		(company "Stratos Thivaios (c) 2025")
-		(comment 1 "V1.0")
+		(title "THPDL-2511")
+		(date "2025-12-01")
+		(rev "1.0")
+		(company "Stratos Thivaios (c) 2025 - https://github.com/sthivaios")
 	)
 	(layers
 		(0 "F.Cu" signal)
