@@ -2927,7 +2927,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "fd7dab1d-27d3-4036-9d02-4eab670e1a22")
+			(uuid "1bd8572d-1a81-44cb-9d45-2627b5b71764")
 		)
 		(pad "49" smd rect
 			(at -1.975 4.675)
@@ -2937,7 +2937,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "fd7dab1d-27d3-4036-9d02-4eab670e1a22")
+			(uuid "ae19f595-db0d-4fb6-9154-59993978a2e2")
 		)
 		(pad "49" smd rect
 			(at 0 0.725)
@@ -2947,7 +2947,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "fd7dab1d-27d3-4036-9d02-4eab670e1a22")
+			(uuid "b45922d8-fa8e-4696-afb4-7c4642b71e8c")
 		)
 		(pad "49" smd rect
 			(at 0 2.7)
@@ -2957,7 +2957,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "fd7dab1d-27d3-4036-9d02-4eab670e1a22")
+			(uuid "f6d535ab-e696-4dab-9ac5-8fd5f3fac646")
 		)
 		(pad "49" smd rect
 			(at 0 4.675)
@@ -2967,7 +2967,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "fd7dab1d-27d3-4036-9d02-4eab670e1a22")
+			(uuid "48fdc840-c420-4fd3-96bc-c5d07203add1")
 		)
 		(pad "49" smd rect
 			(at 1.975 0.725)
@@ -2977,7 +2977,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "fd7dab1d-27d3-4036-9d02-4eab670e1a22")
+			(uuid "a04fe177-12a2-447d-ae18-3ced3e0f1ef0")
 		)
 		(pad "49" smd rect
 			(at 1.975 2.7)
@@ -2987,7 +2987,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "fd7dab1d-27d3-4036-9d02-4eab670e1a22")
+			(uuid "25170e65-ba5f-49ed-a1ed-e15162d8bf48")
 		)
 		(pad "49" smd rect
 			(at 1.975 4.675)
@@ -2997,7 +2997,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "fd7dab1d-27d3-4036-9d02-4eab670e1a22")
+			(uuid "a8a99a8f-3d71-429c-ae42-17f414ec54e8")
 		)
 		(pad "50" smd rect
 			(at 5.95 -2.25)
@@ -9273,7 +9273,7 @@
 		(layer "Edge.Cuts")
 		(uuid "fba7b288-3ca5-4a0e-8962-0acd2441632c")
 	)
-	(gr_text "\nDevelopment Board\nStratos Thivaios (C) 2025\nhttps://github.com/sthivaios"
+	(gr_text "\nDevelopment Board V1.0\nStratos Thivaios (C) 2025\nhttps://github.com/sthivaios"
 		(at 136.2 114.6 0)
 		(layer "F.SilkS")
 		(uuid "6b49fb9b-01aa-44ed-bad6-19a3a40aff30")
