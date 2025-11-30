@@ -8,11 +8,11 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "ESP32-Powered BME680 Environmental Sensor IoT Device")
-		(date "2025-11-25")
-		(rev "2.0")
+		(title "THPDL-2511 V1.0")
+		(date "2025-11-30")
+		(rev "V1.0")
 		(company "Stratos Thivaios (c) 2025")
-		(comment 1 "Rev 2.0 moves the ESP32 module to the edge of the PCB to expose the antenna")
+		(comment 1 "V1.0")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -140,7 +140,7 @@
 		(property "Reference" "BOOT1"
 			(at 0 4.24 180)
 			(layer "F.SilkS")
-			(uuid "3b82ee94-b4db-4d26-bca3-9a664e9a7e8b")
+			(uuid "ba3d44d7-7b15-435d-b002-2df1518541e5")
 			(effects
 				(font
 					(size 1 1)
@@ -151,7 +151,7 @@
 		(property "Value" "SW_Push"
 			(at 0 -4.23 180)
 			(layer "F.Fab")
-			(uuid "f540ca9a-c5e5-460b-8bf5-28f58b47fbfb")
+			(uuid "e9000188-05c1-4951-9a26-0c430a2a6ba7")
 			(effects
 				(font
 					(size 1 1)
@@ -164,7 +164,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ec0dc59-a1cb-46b9-b7c6-370e89542d55")
+			(uuid "a7e502fb-f31e-44ab-beff-7c67b4deb058")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -177,7 +177,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e2c78fa9-c6c0-4073-beca-ec02ee19dd26")
+			(uuid "a021127f-8d72-4374-a03b-a1f195726d7c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,7 +200,7 @@
 		)
 		(path "/65cd9197-2e11-4f97-9ed7-bb35d8cc11f5")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.21 3.21)
@@ -442,7 +442,7 @@
 		(property "Reference" "C3"
 			(at -1.07 -0.5 0)
 			(layer "F.SilkS")
-			(uuid "49a6e730-d0af-4b85-900c-bfbc605850ca")
+			(uuid "d761a1ff-be89-4cbb-ac83-a671446bda0f")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -454,7 +454,7 @@
 		(property "Value" "2.2uF"
 			(at 0 1.05 90)
 			(layer "F.Fab")
-			(uuid "41e874ec-04b0-408e-933a-f5d50978b092")
+			(uuid "a1c6a406-a679-4179-849b-e9c6b9eb6307")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -466,7 +466,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad857010-badb-447d-9017-628e61e185fc")
+			(uuid "bdba30a7-fa17-4ca7-a964-1a5bb9ef2659")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -478,7 +478,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1831c78b-2e8d-4f5e-9440-7dc6710cba35")
+			(uuid "3da6e7b6-47bd-4639-8a9d-96b85ad7701b")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -502,7 +502,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/baa1ac10-f994-44d2-933f-fd7f137dc074")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 0.35)
@@ -639,7 +639,7 @@
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d9aed9e2-4b02-4289-9fdb-2fd865dcdac7")
+			(uuid "20d4aaa2-8b91-44d0-829a-102ad644cb83")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -650,7 +650,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "16cf8dc6-48f9-4ca0-a0e2-029ef228c059")
+			(uuid "3de5d8eb-a292-407c-af6c-86a79df6fdb5")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -662,7 +662,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa35ed64-fb81-4d67-a539-080a289cd483")
+			(uuid "2aebb36e-dea4-41ae-ad4d-5ac8bf52ab8d")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -674,7 +674,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25d9cd99-b041-4aef-8a8c-aa10691e958b")
+			(uuid "24f13ad1-6744-4a8f-b291-d1b05dc41e31")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -698,7 +698,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a691342-147a-4283-bdff-b463d2884d4c")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 -0.35)
@@ -845,7 +845,7 @@
 		(property "Reference" "VREG1"
 			(at -0.5 2.1125 180)
 			(layer "F.SilkS")
-			(uuid "1fa8a519-910b-4756-a3c0-513776f8a4a9")
+			(uuid "2c026a31-ff38-4608-9f7a-f8883e2ae520")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -857,7 +857,7 @@
 		(property "Value" "AP2112K-3.3"
 			(at -1.28 2.809688 0)
 			(layer "F.Fab")
-			(uuid "310f6745-5988-4bb0-abef-ddd1ddc84d7b")
+			(uuid "99947822-b5be-4eb2-a3df-d6ba06780a56")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -869,7 +869,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c7a5640-34de-4c92-acf4-6b27a05944e1")
+			(uuid "50826a72-cf4f-40ae-be4f-7e3a9f28fb8c")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -881,7 +881,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e0a6c40-4781-4465-9a83-dab209a85b2d")
+			(uuid "1faeb646-b112-4693-922d-b03d8aae29be")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -905,7 +905,7 @@
 		(property ki_fp_filters "SOT?23?5*")
 		(path "/14465d03-e540-4ec2-b4e9-ba8fc6413dda")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -1202,7 +1202,7 @@
 			(at 0 -1.05 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3c4ba795-d101-4158-a273-e1baca8f0be9")
+			(uuid "7e8b3f98-5d62-4e1d-bed4-a7c3e17a56b0")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1213,7 +1213,7 @@
 		(property "Value" "10k"
 			(at 0 1.05 90)
 			(layer "F.Fab")
-			(uuid "d0a81467-6e1e-49d5-8346-25e30abdd888")
+			(uuid "8ffd5a15-529e-4257-85a3-b790e3ace059")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1225,7 +1225,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9990daa7-083f-47c4-8048-db29a36a8f96")
+			(uuid "4ee733bf-9e67-46be-8a28-091796c048c3")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1237,7 +1237,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a813f7a8-d9c6-4992-a95c-996b95ed59a3")
+			(uuid "a8e861d4-90b0-49bf-9445-b6abf345acf7")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1261,7 +1261,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3c006a75-12b0-4805-ad7a-2f49892e3dca")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 -0.35)
@@ -1408,7 +1408,7 @@
 		(property "Reference" "C1"
 			(at 1.25 0 180)
 			(layer "F.SilkS")
-			(uuid "bdac4ccc-fee8-4010-a75d-760488956c2b")
+			(uuid "cf5d125a-d546-4a00-8195-e4f26c992aa4")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1420,7 +1420,7 @@
 		(property "Value" "2.2uF"
 			(at 0 1.05 90)
 			(layer "F.Fab")
-			(uuid "b383f596-b80b-4b7b-9009-dc3334b06c8d")
+			(uuid "7f8152cd-fa01-43cb-963c-095d44cb6230")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1432,7 +1432,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0fad4a5a-4e08-4a8d-8066-8ba5c33c2923")
+			(uuid "f1ef0a52-98e5-4c4f-a908-8a11d467968f")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1444,7 +1444,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25bdc5f9-4b12-4ec2-8a79-41b83322eab0")
+			(uuid "59c53d50-393e-424e-bd03-d2a919e7cce2")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1468,7 +1468,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0d0fbe8f-fbbd-42aa-b08f-77164bc5d658")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 -0.35)
@@ -1604,7 +1604,7 @@
 		(property "Reference" "C9"
 			(at -0.4 -0.8 0)
 			(layer "F.SilkS")
-			(uuid "86315719-510d-4553-93cc-93f26c5f9f2c")
+			(uuid "43f2ce6d-ae43-4a6b-beb3-1cfa7fcbeb85")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1615,7 +1615,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "a3db7102-2249-4fc2-b7a9-f0eddbbafc03")
+			(uuid "1999ca54-1b60-4dbd-89b4-96cdab1db690")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1627,7 +1627,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "54e0be55-bbaa-4aa9-8df0-cd0d53217b89")
+			(uuid "06901053-0be4-4e64-a41c-e5085b99d1e2")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1639,7 +1639,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0b4926a-2511-4cc0-b0c1-f24b9cd90b78")
+			(uuid "86c8e498-f91a-4019-a012-931da5b139a9")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1663,7 +1663,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c7234156-8e8f-4bc0-98f8-e651a47eda75")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 -0.35)
@@ -1800,7 +1800,7 @@
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8739bb13-6b97-455d-9790-186c6b788bdb")
+			(uuid "20fd7571-d2be-478e-a287-a5013e0630b5")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1811,7 +1811,7 @@
 		(property "Value" "10k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "3f20dc81-c725-48d5-82ac-233a90123b90")
+			(uuid "320f65de-ad1e-4c3e-8048-bb824353bfdd")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1823,7 +1823,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d79181ee-daae-4475-a98c-62ba1fba52ce")
+			(uuid "27c5850d-27e1-4399-8a41-7736b90183b4")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1835,7 +1835,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42cc9e9b-9d1c-452d-b979-fb2258b1fc0a")
+			(uuid "d92c7bca-4524-4ff6-a2aa-f17cef915351")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1859,7 +1859,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9bb9081e-9985-4f23-bdeb-53b69ecbfdc0")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 0.35)
@@ -2006,7 +2006,7 @@
 		(property "Reference" "R7"
 			(at -1.6 0 0)
 			(layer "F.SilkS")
-			(uuid "670ac8e5-5ca0-465b-853e-d0de2a4890fb")
+			(uuid "6eb705d0-23b2-4110-989a-c972ea76623e")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2017,7 +2017,7 @@
 		(property "Value" "330"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "f464b4b3-ff5e-4742-aa70-677b21168458")
+			(uuid "473f1852-b0fa-4928-b99a-7427eae4256e")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2029,7 +2029,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "841682b4-4a10-450d-9532-c51d906a27df")
+			(uuid "b2938aef-6ebc-437e-8967-6881a25158f8")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2041,7 +2041,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a2a474a-1970-4104-9a9d-1490240d3a0b")
+			(uuid "38e5a5df-1741-4a5f-aaaf-8d92cee0dd2c")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2065,7 +2065,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/28ab1572-0d00-4723-9554-ba21482545ba")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 -0.35)
@@ -2201,7 +2201,7 @@
 		(property "Reference" "MAIN_MCU1"
 			(at 7.697188 1.75 0)
 			(layer "F.SilkS")
-			(uuid "1c8cf3c2-dc84-43e2-9314-6a7fc814f67c")
+			(uuid "07d2db58-95ba-45cc-8b8b-0bec8d7ebb8e")
 			(effects
 				(font
 					(size 1 1)
@@ -2212,7 +2212,7 @@
 		(property "Value" "ESP32-C3-MINI-1"
 			(at 0 9.85 270)
 			(layer "F.Fab")
-			(uuid "28a57e81-dba6-460f-be78-6a263eac36a4")
+			(uuid "11aa6e24-913a-45c0-8849-e1ff1456648b")
 			(effects
 				(font
 					(size 1 1)
@@ -2220,11 +2220,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4743d42f-675e-4a69-a7ab-64308d4582b3")
+			(uuid "a2cc5ff2-c8f0-4539-9768-2b472cddd5df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,11 +2232,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESP32-C3-MINI-1 family is an ultra-low-power MCU-based SoC solution that supports 2.4 GHz Wi-Fi and Bluetooth®Low Energy (Bluetooth LE)."
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56dbad24-430f-4d20-8199-237d87cc5b60")
+			(uuid "51485c74-98bc-47ce-9871-55ba3333ec79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +2259,7 @@
 		)
 		(path "/2d00384b-52f1-4813-bf54-2dce8b169b25")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -6.8 8.5)
@@ -2440,17 +2440,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "1c419d69-d8fb-4374-a5c6-caf6b43c60c8")
-		)
-		(fp_text user "Antenna Area"
-			(at 0 -5.85 270)
-			(layer "F.SilkS")
-			(uuid "61dd726d-c976-471b-a8eb-2c5ab159131a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.7 270)
@@ -3090,7 +3079,7 @@
 		(property "Reference" "VBUS_TEST1"
 			(at 2.305 0.690312 90)
 			(layer "F.SilkS")
-			(uuid "8a04753a-d8fe-46da-860e-3c5cfb31822c")
+			(uuid "f9d3e92c-179f-4647-83b4-6bdb0e146ac1")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3101,7 +3090,7 @@
 		(property "Value" "Conn_01x02_Pin"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "c3b25017-0de3-4d67-9cb1-e7a5e54e7502")
+			(uuid "820d128d-6c50-42da-9b17-050a0d8f71cb")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3113,7 +3102,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39ad79f1-180c-4c36-a076-43c44c8c6644")
+			(uuid "b4fd1902-59ad-4d3f-b983-e0dad502217c")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3125,7 +3114,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a22d631-87ae-4b04-af20-dcb763e9e6e6")
+			(uuid "40e43a86-067e-4e3f-b097-258c109ff278")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3149,7 +3138,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0a59d2c2-515e-4c06-9111-8b2f83e8c50c")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.38 1.27)
@@ -3345,7 +3334,7 @@
 		(property "Reference" "C2"
 			(at -2.07 -0.5 0)
 			(layer "F.SilkS")
-			(uuid "ece7a1ce-cd34-4a49-9908-fd80b5b2d50a")
+			(uuid "b21c9d80-3257-46c8-8313-c2ed28d5a247")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3357,7 +3346,7 @@
 		(property "Value" "100uF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
-			(uuid "a871ccb2-b863-4772-97e6-0db35274076e")
+			(uuid "f1b98d02-7738-4f95-b641-1bbb13711f66")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3369,7 +3358,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fdb02471-6b58-43db-8ffd-b8f74f1e3c63")
+			(uuid "80be9c95-d6e2-4830-bece-139695976c2a")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3381,7 +3370,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "26c81d59-fdf1-4e47-b2db-6c430ced48a8")
+			(uuid "756a9997-527a-499c-80fa-fcd0a8948cfb")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3405,7 +3394,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/70aef932-7e82-48ea-9358-9d037b6f9557")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -3548,7 +3537,7 @@
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "baade4c2-0ccf-4ef2-b7a2-0e91ff86dee7")
+			(uuid "2424ec02-edb8-41c2-a2c1-0cd70d4d1877")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3559,7 +3548,7 @@
 		(property "Value" "4.7k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "921d120e-0efd-47e5-9d89-d0a0b965b86d")
+			(uuid "87140978-77c0-40a8-b773-0211758214c6")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3571,7 +3560,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d0420b7-8784-444d-b0a0-5551a1a49b68")
+			(uuid "e40f2dbb-5822-41e3-a390-2a5ec85ace11")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3583,7 +3572,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd893389-0ecb-488c-8cfd-a8fda56bd1c3")
+			(uuid "cdcd8444-32f9-454b-85b4-a78419e3df66")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3607,7 +3596,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b6a4ee99-5031-49f3-81f4-8b87cd323292")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 0.35)
@@ -3754,7 +3743,7 @@
 		(property "Reference" "C6"
 			(at -1.25 -0.25 90)
 			(layer "F.SilkS")
-			(uuid "133cb6de-8317-4a6d-9172-621a4fe8e101")
+			(uuid "2669172e-0c8c-42a0-86c9-6691479c3bd9")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3766,7 +3755,7 @@
 		(property "Value" "10uF"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "76aa1c7e-61f8-4d5a-9529-976c865b21ba")
+			(uuid "428ed0f6-47eb-477b-8ae7-98a98611e0e9")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3778,7 +3767,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4cb9239b-204f-4ac8-b4b7-a5aa3780b86d")
+			(uuid "2a1fafc9-7893-406a-8a8a-9c1b82e2f72c")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3790,7 +3779,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08bda582-196f-4329-9556-16c5984cf7c8")
+			(uuid "be2b7b2f-8132-4605-97ba-f04a9e061f80")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3814,7 +3803,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3d77406d-cd60-4402-acce-437d75467cd6")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 -0.35)
@@ -3950,7 +3939,7 @@
 		(property "Reference" "R4"
 			(at 1.25 0 90)
 			(layer "F.SilkS")
-			(uuid "92a5a770-9879-4907-aadc-7490454c8f05")
+			(uuid "bed2ea0a-e68a-4bbe-8e1c-e56e7f1181de")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3961,7 +3950,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "92a663e1-9f03-4f53-821f-bb936bc35a95")
+			(uuid "d4e442e1-29ce-4e45-b011-7246d5a9c7da")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3973,7 +3962,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08afc7a7-fc52-4d8e-91b6-863f8fb7fa76")
+			(uuid "4b17f2d5-0f93-41ac-a94b-7d78aca9288a")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3985,7 +3974,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8e40169-5b64-4aa0-869f-18599a8b8f2b")
+			(uuid "a927095c-fd6f-4a39-97bf-e30d5c18ed8f")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -4009,7 +3998,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e03e5f27-cb4b-4dfb-873a-dea32fc11a8b")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 -0.35)
@@ -4146,7 +4135,7 @@
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e55d717a-6d6f-4361-aca2-9a390e05f296")
+			(uuid "b6513ce7-fa65-4733-a5a7-f83c71b22cbb")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -4157,7 +4146,7 @@
 		(property "Value" "4.7k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "9cf2e206-a57c-4103-a764-3a191a3d7904")
+			(uuid "63672f82-ddf4-4241-a52c-db3a1823aa50")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -4169,7 +4158,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97e1e568-2092-4d70-b9ed-440419a7a6d6")
+			(uuid "9850b085-26a8-4d83-81c7-c712ae539770")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -4181,7 +4170,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0eaf1276-28dc-4d5b-b8ff-52c87f849a40")
+			(uuid "0ada99af-0bae-4657-ac68-c79010babb3f")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -4205,7 +4194,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8cb78099-cf7d-4809-b74f-cdc129f29f33")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 0.35)
@@ -4352,7 +4341,7 @@
 		(property "Reference" "GPIO_EXPANSION1"
 			(at 2.25 3.08 90)
 			(layer "F.SilkS")
-			(uuid "e3870f24-eee2-4453-816c-d901121a5f67")
+			(uuid "528dc31e-1fc1-4cc8-9b71-8a1aa88a2729")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -4365,7 +4354,7 @@
 			(at 0 7.46 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47ca9922-1a8a-4f17-af0c-16666d366455")
+			(uuid "f1324693-ecbb-45c7-8684-978edbe36eb0")
 			(effects
 				(font
 					(size 1 1)
@@ -4377,7 +4366,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "074e2ce1-0a94-4787-84be-21eef011fb4e")
+			(uuid "483e0acd-45ec-4bf4-b540-e5796f0ecca5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4378,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85702523-0896-489d-b1f5-bb3cdfb05b83")
+			(uuid "94118ce6-dd3a-49ee-8981-65c1c2eefbbc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4402,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0633cb06-f725-4bb1-a7ae-6c52515ddf8c")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.38 1.27)
@@ -4619,7 +4608,7 @@
 			(at 3.009817 1.78622 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bc1ac444-a404-4b97-b7cd-fa0502cee026")
+			(uuid "7c2f484e-4f4a-4e40-8c40-b567b37ac506")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -4631,7 +4620,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b6ac260a-bcfc-4b08-902c-ad29b0487c6a")
+			(uuid "ba92a73b-9b5d-4fb5-a9e6-3579879f6d2b")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -4643,7 +4632,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "060fca3f-e820-42cb-8e8d-c046b1c40ce0")
+			(uuid "2a6ddf4d-5a00-40bb-8517-04b1cbbcbfe6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4644,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c76a0a19-bb71-4bf7-85a3-9a0c46b3a61d")
+			(uuid "1bd9d8ac-56e8-48d2-abb1-f77d182f93a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +5112,7 @@
 		(property "Reference" "H4"
 			(at -2.399999 -3.85 0)
 			(layer "F.SilkS")
-			(uuid "9f38e8d9-3bd7-4f61-8015-42f497d78d69")
+			(uuid "58c43eef-dfe3-4944-bbf4-a01a1d1369b7")
 			(effects
 				(font
 					(size 1 1)
@@ -5134,7 +5123,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "37229e95-d49a-419d-bc6e-a25e1e74dbe4")
+			(uuid "90c5173b-0b70-4288-854d-2940ef66ab83")
 			(effects
 				(font
 					(size 1 1)
@@ -5146,7 +5135,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aeeec0b4-8217-4c79-8b6c-02c03dcaefef")
+			(uuid "651b09c8-c5fc-40bd-9fe3-e8c62fdaeda5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +5147,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1367be17-3683-4941-a32f-d84824242dec")
+			(uuid "52628a40-0b48-47ea-89ba-e461d23b7fd8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,7 +5158,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/cfe186fc-680c-414f-a1c8-103c4631792f")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -5247,7 +5236,7 @@
 		(property "Reference" "H2"
 			(at -3.95 3 0)
 			(layer "F.SilkS")
-			(uuid "8ffce933-b44c-4a68-8991-83eb46d42365")
+			(uuid "b2b590fa-d639-4cd9-a8dc-334b61bae81f")
 			(effects
 				(font
 					(size 1 1)
@@ -5258,7 +5247,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "1a84a624-1f62-4f50-9d3f-d125388c7a1a")
+			(uuid "11ff5c69-37ed-425f-b5a1-fab097869191")
 			(effects
 				(font
 					(size 1 1)
@@ -5270,7 +5259,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08edfd45-dee1-44fb-8fda-40df52402244")
+			(uuid "a5606555-533b-467b-b823-0cc127b52717")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,7 +5271,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95b837e0-664e-452e-a545-ccddeff3ec13")
+			(uuid "43312802-f57e-4f8a-b1cf-8843b9f7a94e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +5282,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/75f2509e-5587-423c-ba2e-f57a11df6ea1")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -5372,7 +5361,7 @@
 			(at -5 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2922edf2-042c-42f7-ad7d-eec0455b2e3a")
+			(uuid "9df652e3-194d-49da-ba4d-12ce0d140750")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -5383,7 +5372,7 @@
 		(property "Value" "BME680"
 			(at 0 2.45 0)
 			(layer "F.Fab")
-			(uuid "f1408b51-8588-4d42-8bf3-71e811f12fe1")
+			(uuid "bf63ae98-8dba-431b-9c1a-4d4c4920b8b2")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -5395,7 +5384,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0374b1a2-a80d-44ad-ab9e-119e5ac95554")
+			(uuid "8313318c-6b5b-40be-ab3c-facb6a18fee3")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -5407,7 +5396,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f4b2268-399c-485f-9051-fd8aedff1bf5")
+			(uuid "b19b1de9-4af4-4e48-bf35-d089854697a7")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -5431,7 +5420,7 @@
 		(property ki_fp_filters "*LGA*3x3mm*P0.8mm*Clockwise*")
 		(path "/e009bac5-63c4-4c7d-a1db-b0011b0db69b")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.71 -1.36)
@@ -5601,7 +5590,7 @@
 		(property "Reference" "H1"
 			(at 3.65 2.9 0)
 			(layer "F.SilkS")
-			(uuid "27322227-43a8-49c0-a318-59af693321db")
+			(uuid "cc0da645-d1cb-43ed-98db-68ccc19e5296")
 			(effects
 				(font
 					(size 1 1)
@@ -5612,7 +5601,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "b4ba9f92-277b-47f4-ba30-eb40d8068078")
+			(uuid "b3580efc-c2b0-44f8-9e0c-708b24230e12")
 			(effects
 				(font
 					(size 1 1)
@@ -5624,7 +5613,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c8480e95-a836-4444-bf39-1fca586010d7")
+			(uuid "76441007-3823-4066-b9ce-4354fab6e1b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +5625,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb579459-5d93-437c-a82b-1df8988ba22f")
+			(uuid "c499dc04-c10d-4698-a984-2a6fa21c3f3a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +5636,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e0b8bfa8-43b5-465e-af6a-6b77f9865460")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -5726,7 +5715,7 @@
 			(at 0 3.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fcacb0d1-3da6-40e0-b619-67aa7ba8b0aa")
+			(uuid "e72aaf44-e767-46e7-abbb-36971de33003")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -5737,7 +5726,7 @@
 		(property "Value" "WS2812B"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "375d8331-22ca-4e96-9327-57a6b1e78c90")
+			(uuid "1030a8b1-4500-4904-b450-1a0d23cc6fb1")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -5750,7 +5739,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e2a06be-a5ae-43c6-b454-0f82a05994cb")
+			(uuid "148bda12-c8b8-45cd-87a0-0b292f480388")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -5763,7 +5752,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "254ba716-5e06-46b9-b21f-95197fd131ca")
+			(uuid "3f7738bf-28ae-473f-8574-74b8683c316d")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -5787,7 +5776,7 @@
 		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/4bbc32cc-93fd-4378-9072-9ac08e95ab03")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.5 -2.75)
@@ -6045,7 +6034,7 @@
 		(property "Reference" "RESET1"
 			(at 0 4.24 0)
 			(layer "F.SilkS")
-			(uuid "8fa23456-f6a6-4cc6-a7b2-3f315ab70926")
+			(uuid "bfae09e1-ee2b-4dbb-b993-f68344e285ff")
 			(effects
 				(font
 					(size 1 1)
@@ -6056,7 +6045,7 @@
 		(property "Value" "SW_Push"
 			(at 0 -4.23 0)
 			(layer "F.Fab")
-			(uuid "79fb321b-b5c0-4e6a-894d-985863f05889")
+			(uuid "6555a93d-395e-44e1-9649-4839b4872150")
 			(effects
 				(font
 					(size 1 1)
@@ -6069,7 +6058,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c298f402-953d-4209-bb0c-b39298f7cedc")
+			(uuid "4982c7bc-e9eb-4ac9-ae1f-9f8b5624c40e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6071,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e416431-233c-4172-a5e8-542595baf97a")
+			(uuid "c8ed2067-bcc4-4bab-af49-0d075236fdfa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6105,7 +6094,7 @@
 		)
 		(path "/5b3d19d8-d094-47b4-bfb5-981c09a1af7a")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.21 -3.21)
@@ -6347,7 +6336,7 @@
 		(property "Reference" "3V3_TEST1"
 			(at 2.25 0.190312 90)
 			(layer "F.SilkS")
-			(uuid "a3185f39-5e57-4f33-9f0a-8612272e8f21")
+			(uuid "074a76f2-73f8-44ad-80da-2e813832aaf5")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -6358,7 +6347,7 @@
 		(property "Value" "Conn_01x02_Pin"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "53e34265-e872-46cd-ac65-2df9d41cb504")
+			(uuid "06025a02-51b0-4efa-8194-ac4f80d0b840")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -6370,7 +6359,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "237689b6-99a1-47b2-928b-940358d84583")
+			(uuid "fc28ce93-4a1c-4954-89ec-151ebff824d1")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -6382,7 +6371,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60796e82-90d6-4a28-bb52-370eed197afe")
+			(uuid "2fbef339-a560-4092-9b9b-50f857d6443e")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -6406,7 +6395,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/bbfaf397-c1f1-44ec-9170-7150d0f27b14")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.38 1.27)
@@ -6602,7 +6591,7 @@
 		(property "Reference" "R5"
 			(at 1.25 0 90)
 			(layer "F.SilkS")
-			(uuid "c94d7d88-bfb1-4e6b-99c8-563885cde514")
+			(uuid "d5c2b6bb-5f9d-4dfc-bb87-80fc6aa9b255")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -6614,7 +6603,7 @@
 		(property "Value" "10k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "a13ec927-0463-4d29-abdb-42b97a75fb58")
+			(uuid "85daf995-d0fb-4f6c-8061-7e65edaa7a52")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -6626,7 +6615,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35ca4e0c-b860-48a8-ae5c-f3fe5cdf7955")
+			(uuid "dfb1471d-e2de-440e-8c3d-9acbe06c5bc2")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -6638,7 +6627,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "53f1cc4d-b4fb-473b-bc59-26c1075b6343")
+			(uuid "686d289d-18fa-41b3-8703-723009ee82fd")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -6662,7 +6651,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/41fd7652-4767-4b56-920a-170b47911c63")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 0.35)
@@ -6799,7 +6788,7 @@
 			(at 0 3.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "39a01387-585e-420c-bef6-f64d710f10e1")
+			(uuid "aeadacbb-fbe7-4a98-b26a-d8428d806e76")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -6810,7 +6799,7 @@
 		(property "Value" "WS2812B"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "e9d8ce22-efc5-431d-87d6-04e338b12040")
+			(uuid "5fdbdf0c-359c-4c28-9554-ee6a65b481a0")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -6823,7 +6812,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9551667b-56f1-4f12-8b26-689b0570be8a")
+			(uuid "72ceddba-0417-428c-9b57-5e18d558eed9")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -6836,7 +6825,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66c29a77-b6d8-4c68-8192-a3b73511cf52")
+			(uuid "4abd498c-51da-4f1d-a071-7c2c7b988e54")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -6860,7 +6849,7 @@
 		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/74b1e8d3-33a0-40d6-be43-9a0d6cd40cc1")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.5 -2.75)
@@ -7118,7 +7107,7 @@
 		(property "Reference" "C8"
 			(at -1.30625 0 90)
 			(layer "F.SilkS")
-			(uuid "dee264ba-70ff-436e-8d5a-271582462e31")
+			(uuid "8e3c1cb3-73a7-4924-9e54-b68888d548cb")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7129,7 +7118,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.05 90)
 			(layer "F.Fab")
-			(uuid "79abf79a-449b-4bf0-8241-5563c0ceb151")
+			(uuid "b8fc83c6-11e2-43ce-8fa3-50e97527aa93")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7141,7 +7130,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40869a4e-4c3c-452a-8f3f-db8fe1ecf5bd")
+			(uuid "c00f8ec2-6d02-4ae2-803b-2d05b8f4ccc2")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7153,7 +7142,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "94d99e9d-ee4a-438a-bf0c-20eb3e57fa6c")
+			(uuid "f9c0f6ba-c3e3-498c-a775-3e54d76b6ce3")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7177,7 +7166,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5349ede9-0b53-4fb9-a120-c70a635820d8")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 -0.35)
@@ -7313,7 +7302,7 @@
 		(property "Reference" "C4"
 			(at 1.25 0.25 90)
 			(layer "F.SilkS")
-			(uuid "2fc6a08f-b173-454b-b47d-2446dbe600fd")
+			(uuid "41c25df9-4e98-42f0-b633-fe17c6cc4438")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7325,7 +7314,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "d621897b-1484-41b4-8cf8-579aa4688f01")
+			(uuid "c1e4a5ad-47dd-41a6-9023-95acfa2a60a0")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7337,7 +7326,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "136d736d-e037-4d53-bba1-3a07c3065f43")
+			(uuid "fc5bb6c3-608f-421a-be03-47f81f8e57e5")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7349,7 +7338,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9282d5d3-3d45-4381-984f-c90996adbb75")
+			(uuid "9542fbb0-9032-4c6b-977a-fea4df6adb24")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7373,7 +7362,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7bae25f3-9e81-40e4-96a8-051f6d373aab")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 0.35)
@@ -7509,7 +7498,7 @@
 		(property "Reference" "UART1"
 			(at 4 0.04 0)
 			(layer "F.SilkS")
-			(uuid "45f48dcb-cbec-4768-bd90-6d5907236c4d")
+			(uuid "9e9e3738-c2e9-4830-a7bd-3ab9216f43c0")
 			(effects
 				(font
 					(size 1 1)
@@ -7520,7 +7509,7 @@
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.46 90)
 			(layer "F.Fab")
-			(uuid "af1f3d5b-780b-4322-b121-53cdb128164c")
+			(uuid "12927564-66b3-4363-a617-71dc55e72ca2")
 			(effects
 				(font
 					(size 1 1)
@@ -7532,7 +7521,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e33319b-5b0c-40c1-843a-340c7681b8e6")
+			(uuid "eafb8c06-4866-4d52-861d-5c80238f6035")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7533,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42acb950-a70b-4990-b7b4-413b86314328")
+			(uuid "e9174c92-ef2c-464e-bd9c-94959e91f821")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7568,7 +7557,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f4256a39-773b-4cc2-a706-6d44145e15e7")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 6.46)
@@ -7775,7 +7764,7 @@
 		(property "Reference" "C5"
 			(at -1.25 0 90)
 			(layer "F.SilkS")
-			(uuid "0969e4b9-8c64-4102-a4d0-70a99fc1cdd0")
+			(uuid "8397bc73-ada0-4f4d-bcc3-6cb9c4ac49d8")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7787,7 +7776,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "e8e34649-f35b-4d16-858f-df8902fb947a")
+			(uuid "6441ba0d-b64c-4fa6-8739-afd6d4ff7b5a")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7799,7 +7788,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c214897-b8c4-4650-be9e-c03aba50df9e")
+			(uuid "a1d07483-3d98-41a5-ab87-8f2787de89ed")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7811,7 +7800,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f38a1893-9d46-495a-9a6b-e53f3543d8a4")
+			(uuid "f9d7e400-006d-4f47-83e7-09554d6b2d75")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7835,7 +7824,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/75d96df5-34c2-46c4-873b-247fb6dbb901")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 -0.35)
@@ -7971,7 +7960,7 @@
 		(property "Reference" "H3"
 			(at -3.75 3 0)
 			(layer "F.SilkS")
-			(uuid "4d1df4f4-ca56-4b8e-a277-2f446784994e")
+			(uuid "3182f151-6166-4f07-bc10-95496e8b84e6")
 			(effects
 				(font
 					(size 1 1)
@@ -7982,7 +7971,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "2525a6c1-8102-439b-b88c-4b1e8de9691e")
+			(uuid "d7a351ce-e26e-4dd8-bcc4-bfa4e4cb5bcc")
 			(effects
 				(font
 					(size 1 1)
@@ -7994,7 +7983,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6832bad-cd45-4990-b56c-691594b0877c")
+			(uuid "35119d8a-5707-4341-a64b-fa653400fc08")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,7 +7995,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c81fa9b-bd51-4ff0-99f9-c6705a617634")
+			(uuid "823b7111-4caf-40f3-8ce9-ecf56c7d9fd3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8017,7 +8006,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/159f2ab9-a440-428a-8a2a-d98d9746f6de")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -8096,7 +8085,7 @@
 			(at 6.25 -0.75 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d3694a5a-487a-434d-be18-c597eb199f26")
+			(uuid "ab743ccc-f8dc-41d4-a9ee-1bc0eda6b511")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8108,7 +8097,7 @@
 			(at 0 5 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2bb40b8-79b1-4225-888a-9d1eb00f5d2d")
+			(uuid "3c89c9bd-afe1-48ce-b4d0-49107e254612")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8121,7 +8110,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3074c9c6-54c5-464e-aee6-c3b75773486f")
+			(uuid "e337b448-9cb8-47c2-bf88-3ba8bbc9b0c6")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8134,7 +8123,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "806567cb-859f-4b8b-b760-5c89fba7d976")
+			(uuid "413433bd-16c7-462a-8de5-f26beb608f67")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8158,7 +8147,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/b916aaf5-15d1-4af9-8d26-314a093e7191")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.58 3.785)
@@ -8529,7 +8518,7 @@
 		(property "Reference" "R1"
 			(at -0.405 -1 0)
 			(layer "F.SilkS")
-			(uuid "2a5c7f2e-4dfa-4385-bdaa-2c1339adc9cc")
+			(uuid "d3a0b617-fe3b-476b-aff7-1598f341feca")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8540,7 +8529,7 @@
 		(property "Value" "27"
 			(at 0 1.05 90)
 			(layer "F.Fab")
-			(uuid "5387f3af-802b-40e6-9329-a24967d67f90")
+			(uuid "c5e6db88-7d34-4008-aecd-9aeac6c5add8")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8552,7 +8541,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9a8bd1f-772f-4686-b61d-45636407f5dd")
+			(uuid "c1be692a-773a-449a-b85d-92ea03d6e5ba")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8564,7 +8553,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2849ec35-613a-435f-aace-57903bf70a4b")
+			(uuid "d6718c85-c82c-43b5-9b59-aa5b54c70db9")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8588,7 +8577,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a3343e04-94ee-4c84-bd97-ca343d39ee58")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 -0.35)
@@ -8724,7 +8713,7 @@
 		(property "Reference" "R3"
 			(at 1.25 0 90)
 			(layer "F.SilkS")
-			(uuid "e98b1e7e-7411-414b-9a83-e7877ceffdc9")
+			(uuid "324c9691-60a3-4631-88dd-0baf8528806d")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8735,7 +8724,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "18a7a89e-8ebb-4d28-8ac2-9fe07f6947a7")
+			(uuid "3b24a056-9529-4cef-a406-0afa087a2cc9")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8747,7 +8736,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48f4dd1e-f0a2-41ed-87f0-ea85c6b13293")
+			(uuid "fb7c8c76-b94a-47ae-981f-eb9cde40df19")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8759,7 +8748,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c30c927-1cc7-415f-a8d3-491a48eca38e")
+			(uuid "c985867e-a2ee-438a-8e53-0f324639e662")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8783,7 +8772,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d3718fa7-f31e-43e9-9a4e-7d1efbdb5cee")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 -0.35)
@@ -8919,7 +8908,7 @@
 		(property "Reference" "R2"
 			(at -0.405 1 180)
 			(layer "F.SilkS")
-			(uuid "dcac4031-3f9c-4003-aafc-c0a35f673263")
+			(uuid "5fc57a67-56e7-469d-a3ee-3d8135f63e7f")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8930,7 +8919,7 @@
 		(property "Value" "27"
 			(at 0 1.05 90)
 			(layer "F.Fab")
-			(uuid "d95fe958-5dd0-4a10-89db-2e58df1c9017")
+			(uuid "f27a7201-47c5-4548-ba6c-4c1286d62ea4")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8942,7 +8931,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "531ffd21-3631-4fb5-bf5a-ee3c64c0b53b")
+			(uuid "40e05038-6af4-4ac6-a4c2-df819d611700")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8954,7 +8943,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f63f8a3-ae0a-48a6-9408-20f394210dc4")
+			(uuid "89cc9016-71aa-46f9-a559-6cb3eab14e78")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8978,7 +8967,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/05e69bd2-1948-4926-93bd-7cc043dce27a")
 		(sheetname "/")
-		(sheetfile "esp32_environmental_monitor.kicad_sch")
+		(sheetfile "thpdl_2511.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 -0.35)
@@ -9158,7 +9147,7 @@
 	)
 	(gr_arc
 		(start 116.849999 116.052812)
-		(mid 115.259009 115.393802)
+		(mid 115.259005 115.393803)
 		(end 114.599999 113.802812)
 		(stroke
 			(width 0.05)
@@ -9200,7 +9189,7 @@
 	)
 	(gr_arc
 		(start 196.999999 113.802812)
-		(mid 196.340989 115.393802)
+		(mid 196.340985 115.393794)
 		(end 194.749999 116.052812)
 		(stroke
 			(width 0.05)
@@ -9232,7 +9221,7 @@
 	)
 	(gr_arc
 		(start 114.599999 72.302812)
-		(mid 115.259009 70.711822)
+		(mid 115.259004 70.711814)
 		(end 116.849999 70.052812)
 		(stroke
 			(width 0.05)
@@ -9243,7 +9232,7 @@
 	)
 	(gr_arc
 		(start 194.749999 70.052812)
-		(mid 196.340989 70.711822)
+		(mid 196.340986 70.711822)
 		(end 196.999999 72.302812)
 		(stroke
 			(width 0.05)
