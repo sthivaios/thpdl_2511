@@ -4869,6 +4869,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 154.94) (xy 205.74 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f19174-cd0e-4043-ba52-33134514ff0b")
+	)
+	(wire
+		(pts
 			(xy 233.68 60.96) (xy 233.68 55.88)
 		)
 		(stroke
@@ -5269,7 +5279,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 147.32) (xy 185.42 147.32)
+			(xy 182.88 147.32) (xy 180.34 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5573,7 +5583,7 @@
 	)
 	(global_label "GPIO10"
 		(shape input)
-		(at 201.93 149.86 270)
+		(at 193.04 148.59 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5583,7 +5593,7 @@
 		)
 		(uuid "0a401bb4-cd6a-4f2e-9869-569943a439d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.93 159.7395 90)
+			(at 193.04 158.4695 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +5759,7 @@
 	)
 	(global_label "ESP32_RXD"
 		(shape input)
-		(at 180.34 147.32 270)
+		(at 175.26 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5759,7 +5769,29 @@
 		)
 		(uuid "3d561ce3-cd5c-4bed-a840-a75db3eb1b68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 161.0698 90)
+			(at 175.26 161.0698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 208.28 154.94 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43809885-d615-44db-b085-71b473dee146")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.28 161.4933 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +5803,7 @@
 	)
 	(global_label "ESP32_TXD"
 		(shape input)
-		(at 182.88 147.32 270)
+		(at 177.8 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5781,7 +5813,7 @@
 		)
 		(uuid "46baad2b-7b6b-4689-ad2c-4843d091a289")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.88 160.7674 90)
+			(at 177.8 160.7674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5847,7 @@
 	)
 	(global_label "GPIO5"
 		(shape input)
-		(at 207.01 149.86 270)
+		(at 198.12 148.59 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5825,7 +5857,7 @@
 		)
 		(uuid "589904d8-1224-4239-884e-5e6dedbe3a5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.01 158.53 90)
+			(at 198.12 157.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,6 +5973,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 210.82 154.94 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e70bfe6-76bf-4813-84ea-3c3715880754")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.82 161.4328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6079,7 +6133,7 @@
 	)
 	(global_label "GPIO4"
 		(shape input)
-		(at 204.47 149.86 270)
+		(at 195.58 148.59 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6089,7 +6143,7 @@
 		)
 		(uuid "c6b1cb8a-83ff-4d45-973b-7c4c3d3a3b90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 158.53 90)
+			(at 195.58 157.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,7 +6231,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 204.47 144.78 270)
+		(at 195.58 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6186,7 +6240,7 @@
 		(fields_autoplaced yes)
 		(uuid "0633cb06-f725-4bb1-a7ae-6c52515ddf8c")
 		(property "Reference" "GPIO_EXPANSION1"
-			(at 204.47 139.7 90)
+			(at 195.58 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +6248,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 204.47 142.24 90)
+			(at 195.58 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +6256,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 204.47 144.78 0)
+			(at 195.58 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6211,7 +6265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 144.78 0)
+			(at 195.58 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +6274,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 204.47 144.78 0)
+			(at 195.58 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6229,7 +6283,7 @@
 			)
 		)
 		(property "LCSC" "C2937625"
-			(at 204.47 144.78 90)
+			(at 195.58 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,7 +6477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dbd7f9d-6d69-4d5a-bba2-26c9d2e62cf9")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR033"
 			(at 234.95 157.48 0)
 			(effects
 				(font
@@ -6473,7 +6527,7 @@
 		(instances
 			(project ""
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR027")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6490,7 +6544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fa1fb9e-f9ef-43e5-959c-6f7f9893252a")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR037"
 			(at 252.73 68.58 0)
 			(effects
 				(font
@@ -6540,7 +6594,7 @@
 		(instances
 			(project "esp32_environmental_monitor"
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR031")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6556,7 +6610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13129f4a-2df0-4674-bb61-ab4165139324")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR043"
 			(at 271.78 149.86 0)
 			(effects
 				(font
@@ -6606,7 +6660,7 @@
 		(instances
 			(project ""
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR037")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6774,7 +6828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1672b505-5fb3-4c94-ad8a-c8bdf00b900d")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR035"
 			(at 252.73 39.37 0)
 			(effects
 				(font
@@ -6824,7 +6878,7 @@
 		(instances
 			(project ""
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR029")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6840,7 +6894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a616a50-2878-4436-b720-d05f327e7d6d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR032"
 			(at 229.87 62.23 0)
 			(effects
 				(font
@@ -6890,7 +6944,7 @@
 		(instances
 			(project "esp32_environmental_monitor"
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR026")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6906,7 +6960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "272494dc-1cba-41d5-958e-47dbbbfdfe9b")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR031"
 			(at 209.55 127 0)
 			(effects
 				(font
@@ -6956,7 +7010,7 @@
 		(instances
 			(project "esp32_environmental_monitor"
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR043")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7179,7 +7233,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bf85045-ea7b-459c-ae61-81a231b60d72")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 252.73 86.36 0)
 			(effects
 				(font
@@ -7229,7 +7283,7 @@
 		(instances
 			(project "esp32_environmental_monitor"
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7770,7 +7824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43147721-e172-4ea6-9fd1-3fef8017cde7")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR026"
 			(at 179.07 127 0)
 			(effects
 				(font
@@ -7820,7 +7874,7 @@
 		(instances
 			(project "esp32_environmental_monitor"
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR040")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8193,7 +8247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56e67184-83e6-4fd6-bc42-9091445fe625")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 255.27 107.95 0)
 			(effects
 				(font
@@ -8243,7 +8297,73 @@
 		(instances
 			(project "esp32_environmental_monitor"
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR034")
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5858450e-e54a-42ad-87f4-b00dc68b0a01")
+		(property "Reference" "#PWR030"
+			(at 203.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d0b02cc-951e-41d3-960b-b85cc3e8062f")
+		)
+		(instances
+			(project "thpdl_2511"
+				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8615,7 +8735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66272e03-10ee-4f1e-8064-68eab0e2cbe4")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR039"
 			(at 255.27 100.33 0)
 			(effects
 				(font
@@ -8665,7 +8785,7 @@
 		(instances
 			(project "esp32_environmental_monitor"
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR033")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8680,7 +8800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "688b3a47-a279-4577-85aa-c6d5738bec69")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR036"
 			(at 252.73 57.15 0)
 			(effects
 				(font
@@ -8730,7 +8850,7 @@
 		(instances
 			(project "esp32_environmental_monitor"
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR030")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9795,6 +9915,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 208.28 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90347923-e377-48bb-950e-972820f992d7")
+		(property "Reference" "I2C1"
+			(at 208.28 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 208.28 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 208.28 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 208.28 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2937625"
+			(at 208.28 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "28ce9fad-20b0-4029-bb41-dc79f6ac2de2")
+		)
+		(pin "2"
+			(uuid "5d159a9b-a82b-4b3a-98b9-a89c9a085778")
+		)
+		(pin "1"
+			(uuid "d1bf796f-e553-4fb2-afe0-033d13bf86ce")
+		)
+		(instances
+			(project "thpdl_2511"
+				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
+					(reference "I2C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 55.88 34.29 0)
 		(unit 1)
@@ -9938,7 +10138,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 147.32 0)
+		(at 182.88 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9946,8 +10146,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c52a88b-0aa3-48fb-9333-face4489d9ca")
-		(property "Reference" "#PWR039"
-			(at 187.96 153.67 0)
+		(property "Reference" "#PWR027"
+			(at 182.88 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9956,7 +10156,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 152.4 0)
+			(at 182.88 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9964,7 +10164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 147.32 0)
+			(at 182.88 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9973,7 +10173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 147.32 0)
+			(at 182.88 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9982,7 +10182,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 147.32 0)
+			(at 182.88 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9996,7 +10196,7 @@
 		(instances
 			(project "esp32_environmental_monitor"
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR039")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10012,7 +10212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1db21a4-bfea-47b6-8299-fe6e4efc6dde")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR041"
 			(at 262.89 127 0)
 			(effects
 				(font
@@ -10062,7 +10262,7 @@
 		(instances
 			(project "esp32_environmental_monitor"
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR035")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -10441,7 +10641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b95548eb-31f4-4852-9c84-223af883c26e")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR029"
 			(at 199.39 127 0)
 			(effects
 				(font
@@ -10491,7 +10691,7 @@
 		(instances
 			(project "esp32_environmental_monitor"
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR042")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10666,7 +10866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf250a27-91fe-466f-9d9c-9e403fbac52a")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR042"
 			(at 271.78 133.35 0)
 			(effects
 				(font
@@ -10716,7 +10916,7 @@
 		(instances
 			(project ""
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR036")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -10939,7 +11139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d27587c2-e9ee-4552-9e6b-f28dee417f15")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR028"
 			(at 189.23 127 0)
 			(effects
 				(font
@@ -10989,7 +11189,7 @@
 		(instances
 			(project "esp32_environmental_monitor"
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR041")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11080,7 +11280,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7681fc0-9ff5-4bbc-8b27-3abc72d6d092")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR044"
 			(at 275.59 33.02 0)
 			(effects
 				(font
@@ -11130,7 +11330,7 @@
 		(instances
 			(project "esp32_environmental_monitor"
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR038")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11706,7 +11906,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 182.88 142.24 270)
+		(at 177.8 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11715,7 +11915,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4256a39-773b-4cc2-a706-6d44145e15e7")
 		(property "Reference" "UART1"
-			(at 182.88 137.16 90)
+			(at 177.8 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11723,7 +11923,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 182.88 139.7 90)
+			(at 177.8 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11731,7 +11931,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 182.88 142.24 0)
+			(at 177.8 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11740,7 +11940,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 142.24 0)
+			(at 177.8 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11749,7 +11949,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 182.88 142.24 0)
+			(at 177.8 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11758,7 +11958,7 @@
 			)
 		)
 		(property "LCSC" "C2937625"
-			(at 182.88 142.24 90)
+			(at 177.8 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11793,7 +11993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f47c15b5-a9f9-4148-9bd4-1fd65e0d807e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR034"
 			(at 247.65 124.46 0)
 			(effects
 				(font
@@ -11843,7 +12043,7 @@
 		(instances
 			(project ""
 				(path "/1fe43109-d280-476a-af2e-10641e44fc32"
-					(reference "#PWR028")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
